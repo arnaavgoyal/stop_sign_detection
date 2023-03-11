@@ -63,4 +63,6 @@ The model was trained upon the GTSRB traffic sign dataset (around 39,232 trainin
 The accuracy could definitely be improved with more training time, but there was no point for this project.
 
 ## Final product
-The final pipeline is able to correctly determine the existence of a stop sign in both sample images (signified by printing ``14``, the class of stop signs in the GTSRB dataset)!
+The final pipeline is able to correctly determine the existence of a stop sign in both ``input_img.jpg`` and ``input_img_2.jpg`` (signified by printing ``14``, the class of stop signs in the GTSRB dataset)!
+
+It is also able to correctly determine that there is no stop sign present in ``input_img_3.jpg``, despite the presence of a large red stop light.
